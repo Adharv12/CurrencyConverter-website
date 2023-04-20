@@ -43,7 +43,7 @@ function displayRate(){
     let val = convert(1, v1, v2);
 
     rate1.innerHTML = `1 ${v1} equals`;
-    rate2.innerHTML = `${val} ${v2};
+    rate2.innerHTML = `${val} ${v2}`;
 }
 
 resultBtn.addEventListener("click", ()=>{
